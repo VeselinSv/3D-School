@@ -29,7 +29,6 @@
 ### Frontend
 - Tinkercad
 - Blender 5.0.1+
-- Substance Painter
 - Mixamo
 - Unity UI Toolkit / Canvas
 - FMOD
@@ -49,3 +48,9 @@
 - JS
 - API
 - Node.js + Express
+
+# Стъпки за изтегляне
+
+1. Изтегляне на Unity Hub
+Unity Hub е централното приложение за управление на версии на Unity, проекти и лицензиране.
+- Отиди на официалния сайт на Unity: https://unity.com/
