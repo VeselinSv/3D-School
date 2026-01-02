@@ -25,3 +25,22 @@
 **Пълно [MVP](DOCS/MVP.md)**
 
 # Технологии
+## Използвани за играта
+- Blender 5.0.1+
+- Tinkercad
+- 3D scanner
+- Unity 2022+ - 3D Built-In Render Pipeline
+- C#
+- Mixamo
+- Substance Painter
+- Photon PUN 2
+- Unity UI Toolkit / Canvas
+- TextMeshPro
+- FMOD
+## Използвани в сайта
+- HTML
+- CSS
+- JS
+- API
+- WebGL
+- Node.js + Express
