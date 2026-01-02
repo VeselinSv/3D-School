@@ -37,6 +37,7 @@
 - Unity UI Toolkit / Canvas
 - TextMeshPro
 - FMOD
+- Profiler (Unity)
 ## Използвани в сайта
 - HTML
 - CSS
