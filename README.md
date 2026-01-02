@@ -27,23 +27,25 @@
 # Технологии
 ## Използвани за играта
 # Frontend
-- Blender 5.0.1+
 - Tinkercad
-- 3D scanner
-- Mixamo
+- Blender 5.0.1+
 - Substance Painter
+- Mixamo
 - Unity UI Toolkit / Canvas
-- TextMeshPro
 - FMOD
+- TextMeshPro
+- 3D scanner
 # Backend
 - Unity 2022+ - 3D Built-In Render Pipeline
 - C#
 - Photon PUN 2
 - Profiler (Unity)
 ## Използвани в сайта
+# Frontend
 - HTML
 - CSS
+- WebGL
+# Backend
 - JS
 - API
-- WebGL
 - Node.js + Express
