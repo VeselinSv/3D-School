@@ -124,10 +124,13 @@
 ```
 Тази структура улеснява ориентацията, поддръжката и бъдещото разширяване на проекта.
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-<img src="DOCS/Screenshots/Screenshot1.png" width="500">
-
-<img src="DOCS/Screenshots/Screenshot2.png" width="500">
+| 1 | 2 | 3 |
+|---|---|---|
+| ![](DOCS/Screenshots/Screenshot1.png) | ![](DOCS/Screenshots/Screenshot2.png) | ![](DOCS/Screenshots/Screenshot3.png) |
+| ![](DOCS/Screenshots/Screenshot4.png) | ![](DOCS/Screenshots/Screenshot5.png) | ![](DOCS/Screenshots/Screenshot6.png) |
+| ![](DOCS/Screenshots/Screenshot7.png) | ![](DOCS/Screenshots/Screenshot8.png) | ![](DOCS/Screenshots/Screenshot9.png) |
+| ![](docs/screenshots/screenshot10.png) | ![](docs/screenshots/screenshot11.png) | ![](docs/screenshots/screenshot12.png) |
 
 
