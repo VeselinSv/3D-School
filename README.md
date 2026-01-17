@@ -124,6 +124,10 @@
 ```
 Тази структура улеснява ориентацията, поддръжката и бъдещото разширяване на проекта.
 
-# Screenshots
+## 📸 Screenshots
+
+<img src="docs/Screenshots/Screenshot1.png" width="350">
+
+<img src="docs/Screenshots/Screenshot2.png" width="350">
 
 
