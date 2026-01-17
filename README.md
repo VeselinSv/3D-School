@@ -126,7 +126,7 @@
 
 ## 📸 Screenshots
 
-<img src="docs/Screenshots/Screenshot1.png" width="350">
+<img src="DOCS/Screenshots/Screenshot1.png" width="350">
 
 <img src="docs/Screenshots/Screenshot2.png" width="350">
 
