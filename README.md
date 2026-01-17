@@ -133,4 +133,13 @@
 | ![](DOCS/Screenshots/Screenshot7.png) | ![](DOCS/Screenshots/Screenshot8.png) | ![](DOCS/Screenshots/Screenshot9.png) |
 | ![](docs/screenshots/screenshot10.png) | ![](docs/screenshots/screenshot11.png) | ![](docs/screenshots/screenshot12.png) |
 
+---
+
+## 📄 Проектна документация
+
+- ## Пълно **[MVP](DOCS/MVP.md)** – описание на минималния работещ продукт и основните функционалности
+- ## **[TESTING](DOCS/TESTING.md)** – тестови сценарии, методология и резултати
+- ## **[BUGS](DOCS/BUGS.md)** – известни проблеми, ограничения и планирани корекции
+- ## **[CONTRIBUTION](DOCS/CONTRIBUTION.md)** – правила за принос
+---
 
