@@ -1,24 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace Adobe.Substance
-{
-    /// <summary>
-    /// Types of values supported by the substance Engine.
-    /// </summary>
-    public enum SubstanceValueType : uint
-    {
-        Float,
-        Float2,
-        Float3,
-        Float4,
-        Int,
-        Int2,
-        Int3,
-        Int4,
-        Image,
-        String,
-        Font,
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9a752fd320b5f0844c79c2db5f281503789a4ebccbde7aadb0b4ead43894cdb
+size 445

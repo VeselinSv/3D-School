@@ -1,30 +1,3 @@
-using System;
-
-namespace Adobe.Substance.Connector
-{
-    /// <summary>
-    /// Class for representing the JSON message from a import callback.
-    /// </summary>
-    [Serializable]
-    public class ImportFileMessage
-    {
-        public string name;
-        public string path;
-        public bool take_file_ownership;
-        public string type;
-        public string uuid;
-    }
-
-    public class ConnectorEventArgs : EventArgs
-    {
-        public uint Context { get; }
-
-        public string Message { get; }
-
-        public ConnectorEventArgs(uint context, string message)
-        {
-            Context = context;
-            Message = message;  
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ff23e241fd202d60a32810aae3f6d748e49312bbe9cf7ad34195c6a9ce578b3
+size 700

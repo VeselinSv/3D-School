@@ -1,35 +1,3 @@
-using UnityEditor;
-using Adobe.Substance;
-
-namespace Adobe.SubstanceEditor
-{
-    internal static class SubstanceInputDrawerString
-    {
-        public static bool DrawInput(SerializedProperty valueProperty, SubstanceInputGUIContent content, SubstanceNativeGraph handler, int inputID)
-        {
-            bool changed;
-
-            switch (content.Description.WidgetType)
-            {
-                default:
-                    changed = DrawDefault(valueProperty, content);
-                    break;
-            }
-
-            if (changed)
-            {
-                var stringValue = valueProperty.stringValue;
-                handler.SetInputString(inputID, stringValue);
-            }
-
-            return changed;
-        }
-
-        private static bool DrawDefault(SerializedProperty valueProperty, SubstanceInputGUIContent content)
-        {
-            EditorGUI.BeginChangeCheck();
-            EditorGUILayout.PropertyField(valueProperty, content);
-            return EditorGUI.EndChangeCheck();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9492e0ac6fcc807e92c9c063e0834070361955730fadcffeaef26f9ee2b8f283
+size 1062

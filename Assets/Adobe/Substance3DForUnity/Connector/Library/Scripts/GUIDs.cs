@@ -1,22 +1,3 @@
-using System;
-
-namespace Adobe.Substance.Connector
-{
-    public static class GUID
-    {
-        /// <summary>
-        /// UUID representing the connection established message.
-        /// </summary>
-        public readonly static Guid ConnectionEstablishedUuid = new Guid("02572bc5-2d84-450a-9e01-d22c66b1abb1");
-
-        /// <summary>
-        /// UUID representing the connection closed message
-        /// </summary>
-        public readonly static Guid ConnectionClosedUuid = new Guid("04705ddf-16d4-4489-af6c-6e3a93f1959d");
-
-        /// <summary>
-        /// UUID representing the sbsar import operation
-        /// </summary>
-        public readonly static Guid ImportSbsarUuid = new Guid("91e3dfbc-80b8-4b1a-92d5-63ec09ac641a");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc45c8ab8a174596d0a56f985840b9b7e44cf14c3a71a14fe7558ff4f5b22a58
+size 765

@@ -1,16 +1,3 @@
-{
-    "name": "Adobe.Substance.Runtime",
-    "rootNamespace": "Adobe.Substance.Runtime",
-    "references": [
-        "GUID:0322a29457affe94ab4ade0a1555000f"
-    ],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b5323c2b86c64da4548db73cad6092e3e5e4a6f1723df2efe6d5f74399dd36e
+size 447

@@ -1,25 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using UnityEngine;
-
-namespace Adobe.Substance
-{
-    /// <summary>
-    /// Struct for handlign sending and receiving preset XML from native to managed code.
-    /// </summary>
-    [StructLayout(LayoutKind.Sequential)]
-    internal struct NativePreset
-    {
-        public IntPtr XMLString;
-    }
-
-    [StructLayout(LayoutKind.Sequential)]
-    internal struct NativePresetInfo
-    {
-        public IntPtr mPackageUrl;
-        public IntPtr mLabel;
-        public IntPtr mDescription;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7282f773d0a1c2ab1ce65080d8236a6a9768bb06f001b5dacde1c9ef92633075
+size 625

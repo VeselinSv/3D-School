@@ -1,22 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace Adobe.Substance
-{
-    /// <summary>
-    /// Represents different types of widgets used to assign input values.
-    /// </summary>
-    public enum SubstanceWidgetType
-    {
-        NoWidget,
-        Slider,
-        Angle,
-        Color,
-        ToggleButton,
-        EnumButton,
-        ComboBox,
-        Image,
-        Position
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fcad51d848bb0cdac30fa3dfdba8082eafbf08e8a61946162cd1ba06d14822d
+size 446

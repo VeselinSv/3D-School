@@ -1,26 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace Adobe.Substance
-{
-    public static class Globals
-    {
-        public static Texture2D CreateColoredTexture(int pWidth, int pHeight, Color pColor)
-        {
-            Texture2D t;
-            Color[] pix = new Color[pWidth * pHeight];
-
-            for (int i = 0; i < pix.Length; i++)
-            {
-                pix[i] = pColor;
-            }
-
-            t = new Texture2D(pWidth, pHeight);
-            t.SetPixels(pix);
-            t.Apply();
-
-            return t;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:92553909c73c74e9765d518bd5344e460a9761bf71469b7dcb1204e0e0e95f8c
+size 606

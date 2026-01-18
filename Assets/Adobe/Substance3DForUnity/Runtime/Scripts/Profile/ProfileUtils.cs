@@ -1,31 +1,3 @@
-#define SUBSTANCE_PROFILE_ENABLE
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-#if SUBSTANCE_PROFILE_ENABLE
-
-using UnityEngine.Profiling;
-
-#endif
-
-namespace Adobe.Substance
-{
-    internal static class ProfileUtils
-    {
-        internal static void BeginSample(string name)
-        {
-#if SUBSTANCE_PROFILE_ENABLE
-            Profiler.BeginSample(name);
-#endif
-        }
-
-        internal static void EndSample()
-        {
-#if SUBSTANCE_PROFILE_ENABLE
-            Profiler.EndSample();
-#endif
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:12fb0a71c6b3213b6dcca5d38dcd0fed249709509cb9f1cb6b87d576e3cc8585
+size 574

@@ -1,28 +1,3 @@
-﻿using UnityEngine;
-using TMPro;
-using UnityEngine.EventSystems;
-
-public class TMPTextHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
-{
-    public TMP_Text tmpText; 
-    public Color hoverColor = Color.red; 
-    private Color originalColor; 
-
-    void Start()
-    {
-        if (tmpText == null)
-            tmpText = GetComponent<TMP_Text>();
-
-        originalColor = tmpText.color; 
-    }
-
-    public void OnPointerEnter(PointerEventData eventData)
-    {
-        tmpText.color = hoverColor;
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        tmpText.color = originalColor;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:112f5b42707d7a127ccddfcab5dded77c62b9c55c19ff81ac33330f3fcd7ac9e
+size 663

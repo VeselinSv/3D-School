@@ -1,26 +1,3 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
-
-public class StaminaBar : MonoBehaviour
-{
-    public Image fill;           
-    public Image staminaImage;   
-    public TextMeshProUGUI labelText;
-
-    public void SetStamina(float current, float max)
-    {
-        float pct = current / max;
-
-        if (fill)
-            fill.fillAmount = pct;
-
-        if (staminaImage)
-        {
-            staminaImage.gameObject.SetActive(current > 0);
-        }
-
-        if (labelText)
-            labelText.text = $"{Mathf.RoundToInt(current)}/{max}";
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd2335764aa1527bc7e1f897df838c5ff2e1d8fe3cd55113127345d4b957e595
+size 587

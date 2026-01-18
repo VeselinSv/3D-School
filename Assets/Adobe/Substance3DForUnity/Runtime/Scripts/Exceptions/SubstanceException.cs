@@ -1,26 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.Serialization;
-using UnityEngine;
-
-namespace Adobe.Substance
-{
-    public class SubstanceNotInitializedException : Exception
-    {
-    }
-
-    public class SubstanceEngineNotFoundException : Exception
-    {
-        public SubstanceEngineNotFoundException(string engine) : base($"Substance engine not found {engine}")
-        {
-        }
-    }
-
-    public class SubstanceException : Exception
-    {
-        internal SubstanceException(ErrorCode code) : base(code.GetMessage())
-        {
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:23d93960719219cdec4214bb255a37d12930cfdf89aa2712baebdf62b1c93031
+size 622

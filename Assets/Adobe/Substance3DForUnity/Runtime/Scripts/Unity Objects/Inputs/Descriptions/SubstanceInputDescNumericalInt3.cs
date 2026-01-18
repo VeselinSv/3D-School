@@ -1,32 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace Adobe.Substance.Input.Description
-{
-    [System.Serializable]
-    public class SubstanceInputDescNumericalInt3 : ISubstanceInputDescNumerical
-    {
-        public Vector3Int DefaultValue;
-
-        public Vector3Int MinValue;
-
-        public Vector3Int MaxValue;
-
-        public Vector3Int SliderStep;
-
-        public bool SliderClamp;
-
-        public int EnumValueCount;
-
-        public SubstanceInt3EnumOption[] EnumValues;
-    }
-
-    [System.Serializable]
-    public class SubstanceInt3EnumOption
-    {
-        public Vector3Int Value;
-
-        public string Label;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2109d7755eae8e12340fba4b78023ad2a8191ebedf35ec67f81ef4e186d7eca0
+size 696
