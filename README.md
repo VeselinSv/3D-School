@@ -46,7 +46,7 @@
 ### Backend
 - JS
 - API - Неизползвано
-- Node.js + Express - Неизползвано
+- Node.js + Express
 
 # Стъпки за изтегляне
 
