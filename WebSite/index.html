@@ -902,7 +902,7 @@ index.html
     </footer>
 
     <script>
-        const API_URL = 'http://localhost:3000/api';
+        const API_URL = process.env.NEXT_PUBLIC_API_URL;
         let conversationHistory = [];
 
         const menuToggle = document.getElementById('menuToggle');
@@ -1153,3 +1153,5 @@ index.html
     </script>
 </body>
 </html>
+
+
